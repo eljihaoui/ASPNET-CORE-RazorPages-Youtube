@@ -10,6 +10,7 @@ namespace RazorPagesDemoYoutube.Utility
         {
             CreateMap<Category, CategoryViewModel>().ReverseMap();
             CreateMap<AppUser, UserInputVeiwModel>().ReverseMap();
+            CreateMap<Course, CourseViewModel>().ReverseMap();  
         }
     }
 }
