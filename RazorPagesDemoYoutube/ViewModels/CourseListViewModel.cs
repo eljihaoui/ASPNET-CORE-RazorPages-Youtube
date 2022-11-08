@@ -14,7 +14,7 @@ namespace RazorPagesDemoYoutube.ViewModels
         [Display(Name = "Published Date")]
         public string PublishedDate { get; set; }
 
-        [Display(Name = "Course Image")]
+        [Display(Name = "Image")]
         public string ImageUrl { get; set; }
 
         [Display(Name = "Category")]

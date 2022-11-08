@@ -1,4 +1,5 @@
-﻿using RazorPagesDemoYoutube.Models;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using RazorPagesDemoYoutube.Models;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -15,7 +16,8 @@ namespace RazorPagesDemoYoutube.ViewModels
 
         [Required]
         public double price { get; set; }
-        public DateTime PublishedDate { get; set; }
+                
+        public DateTime? PublishedDate { get; set; }
 
         [Display(Name = "Course Image")]
         public string ImageUrl { get; set; }
